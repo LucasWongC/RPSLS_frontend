@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__toast {
+	min-height: 46.5px;
+	cursor: default;
+}
+
+.Toastify__toast-body {
+	padding: 0 4.65px;
+}
+
+.Toastify-debug {
+	margin-top: 4.65px;
+	font-size: 12.4px;
+	opacity: 0.7;
+}
+
+.Toastify-debug-button {
+	display: inline-block;
+	border-bottom: 1px dashed;
+	cursor: pointer;
+}
+
+.Toastify-debug-content {
+	margin-top: 4px;
+	padding-bottom: 8px;
+	max-width: 300px;
+	overflow-x: auto;
+}
+
+.Toastify__toast--error {
+	background: #131924;
+	color: white;
+	border-radius: 6px;
+}
+
+.Toastify__toast--success {
+	background: transparent linear-gradient(90deg, #19836c 0%, #177c66 100%) 0% 0% no-repeat
+		padding-box;
+	color: white;
+	box-shadow: 0px 3px 6px #0000005c;
+	border-radius: 4px;
+}
+
+.Toastify__close-button {
+	align-self: flex-start;
+	border-radius: 4px;
+	width: 21px;
+	min-width: 21px;
+	height: 20px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	transition: none;
+	color: #fff;
+}
+
+.Toastify__close-button:hover {
+	background: #ffffff47 0% 0% no-repeat padding-box;
+}
+
+.Toastify__toast-body {
+	font: normal normal normal 14px/16px Relative;
+	line-height: 20px;
+}
+
+.Toastify__toast-icon {
+	display: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
